@@ -1,0 +1,24 @@
+#                                  __                   
+#      __                         /\ \__                
+#     /\_\    ___   _____   __  __\ \ ,_\  _ __   ___   
+#     \/\ \ /' _ `\/\ '__`\/\ \/\ \\ \ \/ /\`'__\/'___\ 
+#    __\ \ \/\ \/\ \ \ \L\ \ \ \_\ \\ \ \_\ \ \//\ \__/ 
+#   /\_\\ \_\ \_\ \_\ \ ,__/\ \____/ \ \__\\ \_\\ \____\
+#   \/_/ \/_/\/_/\/_/\ \ \/  \/___/   \/__/ \/_/ \/____/
+#                     \ \_\                             
+#                      \/_/                             
+
+# Coloration Settings:
+set colored-stats On
+set colored-completion-prefix On
+
+# Completion Settings:
+set show-all-if-ambiguous On
+set completion-ignore-case On
+
+# Bash Keybindings:
+"\C-r":"cd /\n"
+"\C-b":"cd ..\n"
+"\C-h":"cd\n"
+"\C-u":"sudo pacman -Syyu\n"
+"\C-c":"cd ~/.config\n"
